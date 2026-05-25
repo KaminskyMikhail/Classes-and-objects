@@ -3,6 +3,7 @@
 class Interface {
 public:
 	virtual void print() = 0;
+	virtual bool check() = 0;
 };
 class figure : Interface {
 protected:
@@ -12,6 +13,9 @@ public:
 		std::cout << "Figure: " << std::endl;
 		std::cout << "Correct" << std::endl;
 		std::cout << "Number of sides: 0\n" << std::endl;
+	}
+	bool check() override {
+		return 0;
 	}
 };
 
@@ -25,14 +29,9 @@ public:
 		name = "Triangle";
 	}
 	void print() override {
-		std::cout << name << std::endl;
-		if (a != 0 && b != 0 && c != 0) {
-			std::cout << "Number of sides: 3" << std::endl;
-		}
-		else {
-			std::cout << "Uncorrect side length" << std::endl;
-		}
-		if ((A + B + C) == 180) {
+		std::cout << name << std::endl
+			<< "Number of sides: 3" << std::endl;
+		if (check()) {
 			std::cout << "Correct" << std::endl;
 		}
 		else {
@@ -40,6 +39,15 @@ public:
 		}
 		std::cout << "Sides: " << "a=" << a << " b=" << b << " c=" << c << std::endl;
 		std::cout << "Angles: " << "A=" << A << " B=" << B << " C=" << C << "\n" << std::endl;
+	}
+	bool check() override {
+		
+		if ((A + B + C) == 180) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
 	}
 };
 
@@ -49,14 +57,9 @@ public:
 		name = "Right triangle: ";
 	}
 	void print() override {
-		std::cout << name << std::endl;
-		if (a != 0 && b != 0 && c != 0) {
-			std::cout << "Number of sides: 3" << std::endl;
-		}
-		else {
-			std::cout << "Uncorrect side length" << std::endl;
-		}
-		if ((A + B + C) == 180 && B == 90) {
+		std::cout << name << std::endl
+			<< "Number of sides: 3" << std::endl;
+		if (check()) {
 			std::cout << "Correct" << std::endl;
 		}
 		else {
@@ -64,6 +67,15 @@ public:
 		}
 		std::cout << "Sides: " << "a=" << a << " b=" << b << " c=" << c << std::endl;
 		std::cout << "Angles: " << "A=" << A << " B=" << B << " C=" << C << "\n" << std::endl;
+	}
+	bool check() override {
+		
+		if ((A + B + C) == 180 && B == 90) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
 	}
 };
 
@@ -73,14 +85,9 @@ public:
 		name = "Isosceles triangle: ";
 	}
 	void print() override {
-		std::cout << name << std::endl;
-		if (a != 0 && b != 0 && c != 0) {
-			std::cout << "Number of sides: 3" << std::endl;
-		}
-		else {
-			std::cout << "Uncorrect side length" << std::endl;
-		}
-		if ((A + B + C) == 180 && a == c && A == C) {
+		std::cout << name << std::endl
+			<< "Number of sides: 3" << std::endl;
+		if (check()) {
 			std::cout << "Correct" << std::endl;
 		}
 		else {
@@ -88,6 +95,14 @@ public:
 		}
 		std::cout << "Sides: " << "a=" << a << " b= " << b << " c=" << c << std::endl;
 		std::cout << "Angles: " << "A=" << A << " B=" << B << " C=" << C << "\n" << std::endl;
+	}
+	bool check() override {
+		if ((A + B + C) == 180 && a == c && A == C) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
 	}
 
 };
@@ -98,14 +113,9 @@ public:
 		name = "Equilateral triangle: ";
 	}
 	void print() override {
-		std::cout << name << std::endl;
-		if (a != 0 && b != 0 && c != 0) {
-			std::cout << "Number of sides: 3" << std::endl;
-		}
-		else {
-			std::cout << "Uncorrect side length" << std::endl;
-		}
-		if ((A + B + C) == 180 && A == 60 && A == B && A == C && a == b && a == c) {
+		std::cout << name << std::endl
+			<< "Number of sides: 4" << std::endl;
+		if (check()) {
 			std::cout << "Correct" << std::endl;
 		}
 		else {
@@ -113,6 +123,14 @@ public:
 		}
 		std::cout << "Sides: " << "a=" << a << " b=" << b << " c=" << c << std::endl;
 		std::cout << "Angles: " << "A=" << A << " B=" << B << " C=" << C << "\n" << std::endl;
+	}
+	bool check() override {
+		if ((A + B + C) == 180 && A == 60 && A == B && A == C && a == b && a == c) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
 	}
 
 };
@@ -126,14 +144,9 @@ public:
 		name = "Quadrilateral: ";
 	}
 	void print() override {
-		std::cout << name << std::endl;
-		if (a != 0 && b != 0 && c != 0 && d!= 0) {
-			std::cout << "Number of sides: 4" << std::endl;
-		}
-		else {
-			std::cout << "Uncorrect side length" << std::endl;
-		}
-		if ((A + B + C + D) == 360) {
+		std::cout << name << std::endl
+			<< "Number of sides: 4" << std::endl;
+		if (check()) {
 			std::cout << "Correct" << std::endl;
 		}
 		else {
@@ -141,6 +154,14 @@ public:
 		}
 		std::cout << "Sides: " << "a=" << a << " b=" << b << " c=" << c << " d=" << d << std::endl;
 		std::cout << "Angles: " << "A=" << A << " B=" << B << " C=" << C << " D=" << D << "\n" << std::endl;
+	}
+	bool check() override {
+		if ((A + B + C + D) == 360) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
 	}
 };
 
@@ -150,14 +171,9 @@ public:
 		name = "Rectangle: ";
 	}
 	void print() override {
-		std::cout << name << std::endl;
-		if (a != 0 && b != 0 && c != 0 && d != 0) {
-			std::cout << "Number of sides: 4" << std::endl;
-		}
-		else {
-			std::cout << "Uncorrect side length" << std::endl;
-		}
-		if (a == c && b == d && A == 90 && A == B && A == D && A == C) {
+		std::cout << name << std::endl
+			<< "Number of sides: 4" << std::endl;
+		if (check()) {
 			std::cout << "Correct" << std::endl;
 		}
 		else {
@@ -165,6 +181,14 @@ public:
 		}
 		std::cout << "Sides: " << "a=" << a << " b=" << b << " c=" << c << " d=" << d << std::endl;
 		std::cout << "Angles: " << "A=" << A << " B=" << B << " C=" << C << " D=" << D << "\n" << std::endl;
+	}
+	bool check() override {
+		if (a == c && b == d && A == 90 && A == B && A == D && A == C) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
 	}
 };
 
@@ -174,14 +198,9 @@ public:
 		name = "Square: ";
 	}
 	void print() override {
-		std::cout << name << std::endl;
-		if (a != 0 && b != 0 && c != 0 && d != 0) {
-			std::cout << "Number of sides: 4" << std::endl;
-		}
-		else {
-			std::cout << "Uncorrect side length" << std::endl;
-		}
-		if (a == b && a == c && a == d && A == 90 && A == B && A == C && A == D) {
+		std::cout << name << std::endl
+			<< "Number of sides: 4" << std::endl;
+		if (check()) {
 			std::cout << "Correct" << std::endl;
 		}
 		else {
@@ -189,6 +208,14 @@ public:
 		}
 		std::cout << "Sides: " << "a=" << a << " b=" << b << " c=" << c << " d=" << d << std::endl;
 		std::cout << "Angles: " << "A=" << A << " B=" << B << " C=" << C << " D=" << D << "\n" << std::endl;
+	}
+	bool check() override {
+		if (a == b && a == c && a == d && A == 90 && A == B && A == C && A == D) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
 	}
 };
 
@@ -198,14 +225,9 @@ public:
 		name = "Paralleloqram: ";
 	}
 	void print() override {
-		std::cout << name << std::endl;
-		if (a != 0 && b != 0 && c != 0 && d != 0) {
-			std::cout << "Number of sides: 4" << std::endl;
-		}
-		else {
-			std::cout << "Uncorrect side length" << std::endl;
-		}
-		if (a == c && b == d && A == C && B == D) {
+		std::cout << name << std::endl
+			<< "Number of sides: 4" << std::endl;
+		if (check()) {
 			std::cout << "Correct" << std::endl;
 		}
 		else {
@@ -213,6 +235,14 @@ public:
 		}
 		std::cout << "Sides: " << "a=" << a << " b=" << b << " c=" << c << " d=" << d << std::endl;
 		std::cout << "Angles: " << "A=" << A << " B=" << B << " C=" << C << " D=" << D << "\n" << std::endl;
+	}
+	bool check() override {
+		if (a == c && b == d && A == C && B == D) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
 	}
 };
 
@@ -222,14 +252,9 @@ public:
 		name = "Rhombus: ";
 	}
 	void print() override {
-		std::cout << name << std::endl;
-		if (a != 0 && b != 0 && c != 0 && d != 0) {
-			std::cout << "Number of sides: 4" << std::endl;
-		}
-		else {
-			std::cout << "Uncorrect side length" << std::endl;
-		}
-		if (a == b && a == c && a == d && A == C && B == D) {
+		std::cout << name << std::endl
+			<< "Number of sides: 4" << std::endl;
+		if (check()) {
 			std::cout << "Correct" << std::endl;
 		}
 		else {
@@ -237,6 +262,14 @@ public:
 		}
 		std::cout << "Sides: " << "a=" << a << " b=" << b << " c=" << c << " d=" << d << std::endl;
 		std::cout << "Angles: " << "A=" << A << " B=" << B << " C=" << C << " D=" << D << "\n" << std::endl;
+	}
+	bool check() override {
+		if (a == b && a == c && a == d && A == C && B == D) {
+			return 1;
+		}
+		else {
+			return 0;
+		}
 	}
 
 };
