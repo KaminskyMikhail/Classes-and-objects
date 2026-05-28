@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Простое исключение.vcxproj" Id="731a8947-5a74-4f00-9b99-3278f86efa22" />
+</Solution>

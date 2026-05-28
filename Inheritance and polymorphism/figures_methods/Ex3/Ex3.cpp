@@ -26,6 +26,7 @@ protected:
 public:
 	triangle(int a, int b, int c, int A, int B, int C) : a(a), b(b), c(c), A(A), B(B), C(C)
 	{
+		std::cout << A << " " << B << " " << C << std::endl;
 		name = "Triangle";
 	}
 	void print() override {
