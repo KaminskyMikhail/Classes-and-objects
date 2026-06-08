@@ -1,0 +1,32 @@
+cmake_minimum_required(VERSION 3.10)
+project(GeometryFigures)
+
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+
+set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/source)
+set(HEADER_DIR ${CMAKE_CURRENT_SOURCE_DIR}/headers)
+
+include_directories(${HEADER_DIR})
+
+set(SOURCES
+    ${SOURCE_DIR}/Source.cpp
+    ${SOURCE_DIR}/class_figure.cpp
+    ${SOURCE_DIR}/class_triangle.cpp
+    ${SOURCE_DIR}/class_right_triangle.cpp
+    ${SOURCE_DIR}/class_isosceles_triangle.cpp
+    ${SOURCE_DIR}/class_equilateral_triangle.cpp
+    ${SOURCE_DIR}/class_quadrilateral.cpp
+    ${SOURCE_DIR}/class_rectangle.cpp
+    ${SOURCE_DIR}/class_square.cpp
+    ${SOURCE_DIR}/class_parallelogram.cpp
+    ${SOURCE_DIR}/class_rhombus.cpp
+)
+
+add_executable(GeometryFigures ${SOURCES})
+
+
+
+
