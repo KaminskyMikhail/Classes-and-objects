@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 3.20)
+project(leave_proj)
+include_directories(includes)
+link_directories(lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
+add_executable(leave_proj)
+target_sources(leave_proj PRIVATE src/main.cpp)
+target_link_libraries(leave_proj leaver_lib)

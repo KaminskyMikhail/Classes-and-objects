@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\kamin\source\repos\Basic programming\Сборка и подкючение библиотек\Динамическая библиотека Cmake\using_dll\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kamin\source\repos\Basic programming\Сборка и подкючение библиотек\Динамическая библиотека Cmake\using_dll\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9F41E44B-DED1-372B-BCDC-55AA645EBBD5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

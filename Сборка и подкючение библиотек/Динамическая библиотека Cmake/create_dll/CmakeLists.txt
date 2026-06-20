@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 3.20)
+project(dinamic_lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ../lib)
+add_library(dinamic_lib SHARED)
+set_target_properties(dinamic_lib PROPERTIES OUTPUT_NAME leaver_lib)
+target_sources(dinamic_lib PRIVATE src/Source.cpp src/Header.h )

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kamin\source\repos\Basic programming\Сборка и подкючение библиотек\Динамическая библиотека Cmake\build\CMakeFiles\5f0c8204c09e9243f1e3e5dc1535cf63\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F6F9301D-B307-3B2E-A09F-C5FD2C317384}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

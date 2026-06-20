@@ -1,0 +1,3 @@
+C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/using_dll/build/CMakeFiles/leave_proj.dir
+C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/using_dll/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/using_dll/build/CMakeFiles/ZERO_CHECK.dir

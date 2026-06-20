@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Greeter/Greeter.vcxproj" Id="5c52c56e-e175-4eb5-ab7c-68e619dd0d5b" />
+  <Project Path="greet_lib/greet_lib.vcxproj" Id="35fce075-381b-442e-94bd-6930c5326070" />
+</Solution>
