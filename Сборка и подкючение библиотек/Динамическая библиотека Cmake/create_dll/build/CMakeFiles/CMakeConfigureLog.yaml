@@ -85,9 +85,9 @@ events:
       The output was:
       0
       Версия MSBuild 18.6.3+84d3e95b4 для .NET Framework
-      Сборка начата 20.06.2026 23:16:46.
+      Сборка начата 24.06.2026 10:59:05.
       
-      Проект "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
@@ -100,7 +100,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -108,13 +108,13 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Сборка проекта "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.57
+      Прошло времени 00:00:01.03
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -122,7 +122,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/build/CMakeFiles/4.3.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/create_dll/build/CMakeFiles/4.3.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
@@ -861,9 +861,9 @@ events:
       The output was:
       0
       Версия MSBuild 18.6.3+84d3e95b4 для .NET Framework
-      Сборка начата 20.06.2026 23:16:47.
+      Сборка начата 24.06.2026 10:59:07.
       
-      Проект "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      Проект "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
       PrepareForBuild:
         Создание каталога "Debug\\".
         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
@@ -876,7 +876,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -884,13 +884,13 @@ events:
       FinalizeBuildStatus:
         Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
         Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Сборка проекта "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      Сборка проекта "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
       
       Сборка успешно завершена.
           Предупреждений: 0
           Ошибок: 0
       
-      Прошло времени 00:00:00.56
+      Прошло времени 00:00:00.96
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -898,7 +898,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/build/CMakeFiles/4.3.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/create_dll/build/CMakeFiles/4.3.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -1344,8 +1344,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/kamin/source/repos/Basic programming/\u0421\u0431\u043e\u0440\u043a\u0430 \u0438 \u043f\u043e\u0434\u043a\u044e\u0447\u0435\u043d\u0438\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a/\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 Cmake/build/CMakeFiles/CMakeScratch/TryCompile-dzj9a2"
-      binary: "C:/Users/kamin/source/repos/Basic programming/\u0421\u0431\u043e\u0440\u043a\u0430 \u0438 \u043f\u043e\u0434\u043a\u044e\u0447\u0435\u043d\u0438\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a/\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 Cmake/build/CMakeFiles/CMakeScratch/TryCompile-dzj9a2"
+      source: "C:/Users/kamin/source/repos/Basic programming/\u0421\u0431\u043e\u0440\u043a\u0430 \u0438 \u043f\u043e\u0434\u043a\u044e\u0447\u0435\u043d\u0438\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a/\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-ie6tn6"
+      binary: "C:/Users/kamin/source/repos/Basic programming/\u0421\u0431\u043e\u0440\u043a\u0430 \u0438 \u043f\u043e\u0434\u043a\u044e\u0447\u0435\u043d\u0438\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a/\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-ie6tn6"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -1355,39 +1355,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/build/CMakeFiles/CMakeScratch/TryCompile-dzj9a2'
+        Change Dir: 'C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-ie6tn6'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cd172.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b4282.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         Версия MSBuild 18.6.3+84d3e95b4 для .NET Framework
-        Сборка начата 20.06.2026 23:16:48.
+        Сборка начата 24.06.2026 10:59:08.
         
-        Проект "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzj9a2\\cmTC_cd172.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ie6tn6\\cmTC_b4282.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
           Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzj9a2\\Debug\\".
-          Создание каталога "cmTC_cd172.dir\\Debug\\cmTC_cd172.tlog\\".
+          Создание каталога "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ie6tn6\\Debug\\".
+          Создание каталога "cmTC_b4282.dir\\Debug\\cmTC_b4282.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_cd172.dir\\Debug\\cmTC_cd172.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_cd172.dir\\Debug\\cmTC_cd172.tlog\\unsuccessfulbuild".
+          Создание "cmTC_b4282.dir\\Debug\\cmTC_b4282.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_b4282.dir\\Debug\\cmTC_b4282.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cd172.dir\\Debug\\\\" /Fd"cmTC_cd172.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b4282.dir\\Debug\\\\" /Fd"cmTC_b4282.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36244 for x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cd172.dir\\Debug\\\\" /Fd"cmTC_cd172.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b4282.dir\\Debug\\\\" /Fd"cmTC_b4282.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzj9a2\\Debug\\cmTC_cd172.exe" /INCREMENTAL /ILK:"cmTC_cd172.dir\\Debug\\cmTC_cd172.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/build/CMakeFiles/CMakeScratch/TryCompile-dzj9a2/Debug/cmTC_cd172.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/build/CMakeFiles/CMakeScratch/TryCompile-dzj9a2/Debug/cmTC_cd172.lib" /MACHINE:X64  /machine:x64 cmTC_cd172.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_cd172.vcxproj -> C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzj9a2\\Debug\\cmTC_cd172.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ie6tn6\\Debug\\cmTC_b4282.exe" /INCREMENTAL /ILK:"cmTC_b4282.dir\\Debug\\cmTC_b4282.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-ie6tn6/Debug/cmTC_b4282.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-ie6tn6/Debug/cmTC_b4282.lib" /MACHINE:X64  /machine:x64 cmTC_b4282.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_b4282.vcxproj -> C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ie6tn6\\Debug\\cmTC_b4282.exe
         FinalizeBuildStatus:
-          Файл "cmTC_cd172.dir\\Debug\\cmTC_cd172.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_cd172.dir\\Debug\\cmTC_cd172.tlog\\cmTC_cd172.lastbuildstate".
-        Сборка проекта "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzj9a2\\cmTC_cd172.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_b4282.dir\\Debug\\cmTC_b4282.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_b4282.dir\\Debug\\cmTC_b4282.tlog\\cmTC_b4282.lastbuildstate".
+        Сборка проекта "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ie6tn6\\cmTC_b4282.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.55
+        Прошло времени 00:00:00.85
         
       exitCode: 0
   -
@@ -1427,8 +1427,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/kamin/source/repos/Basic programming/\u0421\u0431\u043e\u0440\u043a\u0430 \u0438 \u043f\u043e\u0434\u043a\u044e\u0447\u0435\u043d\u0438\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a/\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 Cmake/build/CMakeFiles/CMakeScratch/TryCompile-rinqwe"
-      binary: "C:/Users/kamin/source/repos/Basic programming/\u0421\u0431\u043e\u0440\u043a\u0430 \u0438 \u043f\u043e\u0434\u043a\u044e\u0447\u0435\u043d\u0438\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a/\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 Cmake/build/CMakeFiles/CMakeScratch/TryCompile-rinqwe"
+      source: "C:/Users/kamin/source/repos/Basic programming/\u0421\u0431\u043e\u0440\u043a\u0430 \u0438 \u043f\u043e\u0434\u043a\u044e\u0447\u0435\u043d\u0438\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a/\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-cjg5t6"
+      binary: "C:/Users/kamin/source/repos/Basic programming/\u0421\u0431\u043e\u0440\u043a\u0430 \u0438 \u043f\u043e\u0434\u043a\u044e\u0447\u0435\u043d\u0438\u0435 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a/\u0414\u0438\u043d\u0430\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430 Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-cjg5t6"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1439,39 +1439,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/build/CMakeFiles/CMakeScratch/TryCompile-rinqwe'
+        Change Dir: 'C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-cjg5t6'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1e97a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7fd81.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         Версия MSBuild 18.6.3+84d3e95b4 для .NET Framework
-        Сборка начата 20.06.2026 23:16:49.
+        Сборка начата 24.06.2026 10:59:10.
         
-        Проект "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rinqwe\\cmTC_1e97a.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        Проект "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjg5t6\\cmTC_7fd81.vcxproj" в узле 1 (целевые объекты по умолчанию).
         PrepareForBuild:
           Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rinqwe\\Debug\\".
-          Создание каталога "cmTC_1e97a.dir\\Debug\\cmTC_1e97a.tlog\\".
+          Создание каталога "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjg5t6\\Debug\\".
+          Создание каталога "cmTC_7fd81.dir\\Debug\\cmTC_7fd81.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_1e97a.dir\\Debug\\cmTC_1e97a.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_1e97a.dir\\Debug\\cmTC_1e97a.tlog\\unsuccessfulbuild".
+          Создание "cmTC_7fd81.dir\\Debug\\cmTC_7fd81.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_7fd81.dir\\Debug\\cmTC_7fd81.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_1e97a.dir\\Debug\\\\" /Fd"cmTC_1e97a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_7fd81.dir\\Debug\\\\" /Fd"cmTC_7fd81.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36244 for x64
           (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_1e97a.dir\\Debug\\\\" /Fd"cmTC_1e97a.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_7fd81.dir\\Debug\\\\" /Fd"cmTC_7fd81.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rinqwe\\Debug\\cmTC_1e97a.exe" /INCREMENTAL /ILK:"cmTC_1e97a.dir\\Debug\\cmTC_1e97a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/build/CMakeFiles/CMakeScratch/TryCompile-rinqwe/Debug/cmTC_1e97a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/build/CMakeFiles/CMakeScratch/TryCompile-rinqwe/Debug/cmTC_1e97a.lib" /MACHINE:X64  /machine:x64 cmTC_1e97a.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_1e97a.vcxproj -> C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rinqwe\\Debug\\cmTC_1e97a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjg5t6\\Debug\\cmTC_7fd81.exe" /INCREMENTAL /ILK:"cmTC_7fd81.dir\\Debug\\cmTC_7fd81.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-cjg5t6/Debug/cmTC_7fd81.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/kamin/source/repos/Basic programming/Сборка и подкючение библиотек/Динамическая библиотека Cmake/create_dll/build/CMakeFiles/CMakeScratch/TryCompile-cjg5t6/Debug/cmTC_7fd81.lib" /MACHINE:X64  /machine:x64 cmTC_7fd81.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7fd81.vcxproj -> C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjg5t6\\Debug\\cmTC_7fd81.exe
         FinalizeBuildStatus:
-          Файл "cmTC_1e97a.dir\\Debug\\cmTC_1e97a.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_1e97a.dir\\Debug\\cmTC_1e97a.tlog\\cmTC_1e97a.lastbuildstate".
-        Сборка проекта "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rinqwe\\cmTC_1e97a.vcxproj" завершена (целевые объекты по умолчанию).
+          Файл "cmTC_7fd81.dir\\Debug\\cmTC_7fd81.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_7fd81.dir\\Debug\\cmTC_7fd81.tlog\\cmTC_7fd81.lastbuildstate".
+        Сборка проекта "C:\\Users\\kamin\\source\\repos\\Basic programming\\Сборка и подкючение библиотек\\Динамическая библиотека Cmake\\create_dll\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjg5t6\\cmTC_7fd81.vcxproj" завершена (целевые объекты по умолчанию).
         
         Сборка успешно завершена.
             Предупреждений: 0
             Ошибок: 0
         
-        Прошло времени 00:00:00.53
+        Прошло времени 00:00:00.58
         
       exitCode: 0
   -

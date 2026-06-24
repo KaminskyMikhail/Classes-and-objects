@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\kamin\source\repos\Basic programming\Сборка и подкючение библиотек\Динамическая библиотека Cmake\src\Source.cpp">
+    <ClCompile Include="C:\Users\kamin\source\repos\Basic programming\Сборка и подкючение библиотек\Динамическая библиотека Cmake\create_dll\src\Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\kamin\source\repos\Basic programming\Сборка и подкючение библиотек\Динамическая библиотека Cmake\src\Header.h">
+    <ClInclude Include="C:\Users\kamin\source\repos\Basic programming\Сборка и подкючение библиотек\Динамическая библиотека Cmake\create_dll\src\Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\kamin\source\repos\Basic programming\Сборка и подкючение библиотек\Динамическая библиотека Cmake\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\kamin\source\repos\Basic programming\Сборка и подкючение библиотек\Динамическая библиотека Cmake\create_dll\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A8AAE1F7-591F-3554-8722-3CDF89826530}</UniqueIdentifier>
+      <UniqueIdentifier>{47684F0B-5ED5-3551-9537-92AC630101EC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5F0CBE2C-F654-36E3-9366-3391C6DD7629}</UniqueIdentifier>
+      <UniqueIdentifier>{0A24B0D7-EDBA-399F-811C-B3F71EA23F13}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
