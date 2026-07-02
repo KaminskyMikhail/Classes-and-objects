@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{332ddef9-4a64-4819-b2be-dcf05dbcf549}</ProjectGuid>
-    <RootNamespace>Racingsimulator</RootNamespace>
+    <ProjectGuid>{6579f29b-1b86-4ff3-979d-cdd5e0073292}</ProjectGuid>
+    <RootNamespace>Симуляторгонок</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,36 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="eagle.cpp" />
+    <ClCompile Include="broomstick.cpp" />
+    <ClCompile Include="ground_race.cpp" />
+    <ClCompile Include="air_race.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="race_for_everyone.cpp" />
+    <ClCompile Include="ground_vehicles.cpp" />
+    <ClCompile Include="airborne_vehicles.cpp" />
+    <ClCompile Include="camel.cpp" />
+    <ClCompile Include="racing_camel .cpp" />
+    <ClCompile Include="centaur.cpp" />
+    <ClCompile Include="all_terrain_boots.cpp" />
+    <ClCompile Include="flying_carpet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="get_ground_vehicles.h" />
+    <ClInclude Include="get_airborne_vehicles.h" />
+    <ClInclude Include="eagle.h" />
+    <ClInclude Include="broomstick.h" />
+    <ClInclude Include="ground_race.h" />
+    <ClInclude Include="air_race.h" />
+    <ClInclude Include="race_for_everyone.h" />
+    <ClInclude Include="vehicles.h" />
+    <ClInclude Include="ground_vehicles.h" />
+    <ClInclude Include="airborne_vehicles.h" />
+    <ClInclude Include="camel.h" />
+    <ClInclude Include="racing_camel.h" />
+    <ClInclude Include="centaur.h" />
+    <ClInclude Include="all_terrain_boots.h" />
+    <ClInclude Include="flying_carpet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

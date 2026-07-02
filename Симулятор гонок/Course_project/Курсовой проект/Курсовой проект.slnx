@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Симулятор гонок/Симулятор гонок.vcxproj" Id="6579f29b-1b86-4ff3-979d-cdd5e0073292" />
+</Solution>
